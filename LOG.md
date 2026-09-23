@@ -4,4 +4,4 @@
 
 
 说明：芯片型号为STM32F407VGTx，将PE5配置为GPIO推挽输出，用来控制LED；PH0、PH1用作外部高速晶振HSE的输入输出引脚，为系统提供外部时钟源。
-说明：系统时钟由HSE（8MHz外部晶振）作为PLL输入源，经过PLL倍频后，系统主时钟SYSCLK配置为168MHz。AHB预分频系数为1，HCLK=168MHz；APB1预分频系数为4，PCLK1=42MHz；APB2预分频系数为2，PCLK2=84MHz
+系统时钟由HSE（8MHz外部晶振）作为PLL输入源，经过PLL倍频后，系统主时钟SYSCLK配置为168MHz。AHB预分频系数为1，HCLK=168MHz；APB1预分频系数为4，PCLK1=42MHz；APB2预分频系数为2，PCLK2=84MHz
